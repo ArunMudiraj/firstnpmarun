@@ -1,0 +1,31 @@
+{
+  "name": "firstnpmarun",
+  "version": "1.0.0",
+  "description": "test npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArunMudiraj/firstnpmarun.git"
+  },
+  "keywords": [
+    "sample",
+    "npm",
+    "package"
+  ],
+  "author": "Arun Mudiraj <arun777@yahoo.com> (https://about.me/arunmudiraj)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArunMudiraj/firstnpmarun/issues"
+  },
+  "homepage": "https://github.com/ArunMudiraj/firstnpmarun#readme",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
